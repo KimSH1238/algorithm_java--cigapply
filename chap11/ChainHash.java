@@ -1,5 +1,5 @@
 package chap11;
-// 체인법에 의한 해시
+import chap11.ChainHash.Node;
 
 public class ChainHash<K,V> {
 	// 해시를 구성하는 노드

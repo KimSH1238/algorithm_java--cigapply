@@ -2,6 +2,8 @@ package chap10;
 import java.util.Comparator;
 // 이진검색트리
 
+import chap10.BinTree_10_01.Node;
+
 public class BinTree<K,V> {
 	// 노드
 	static class Node<K,V> {

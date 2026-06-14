@@ -1,6 +1,9 @@
 package chap11;
 // 오픈 주소법에 의한 해시
 
+import chap11.OpenHash.Bucket;
+import chap11.OpenHash.Status;
+
 public class OpenHash<K,V> {
 	// 버킷의 상태
 	enum Status {OCCUPIED, EMPTY, DELETED};		// {데이터 저장, 비어 있음, 삭제 마침}
